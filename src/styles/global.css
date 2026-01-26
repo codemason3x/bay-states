@@ -1,0 +1,91 @@
+@import 'tailwindcss';
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+@font-face {
+    font-family: Montserrat-ExtraBold;
+    font-style: bold;
+    font-weight: 200 700;
+    font-display: swap;
+    src: url("../../public/font/montserrat-webfont/Montserrat-ExtraBold.ttf") format("woff2");
+}
+
+@font-face {
+    font-family: Montserrat-regular;
+    font-style: normal;
+    font-weight: 200 700;
+    font-display: swap;
+    src: url("../../public/font/montserrat-webfont/Montserrat-Regular.ttf") format("woff2");
+}
+@font-face {
+    font-family: Montserrat-light;
+    font-style: normal;
+    font-weight: 200 700;
+    font-display: swap;
+    src: url("../../public/font/montserrat-webfont/Montserrat-ExtraLight.ttf") format("woff2");
+}
+@font-face {
+    font-family: Montserrat-medium;
+    font-style: normal;
+    font-weight: 100 700;
+    font-display: swap;
+    src: url("../../public/font/montserrat-webfont/Montserrat-Medium.ttf") format("woff2");
+}
+@font-face {
+    font-family: Montserrat-bold;
+    font-style: normal;
+    font-weight: 100 700;
+    font-display: swap;
+    src: url("../../public/font/montserrat-webfont/Montserrat-Bold.ttf") format("woff2");
+}
+
+@theme {
+    --font-ExtraBold: "Montserrat-ExtraBold", sans-serif;
+    --font-Montserrat-medium: "Montserrat-medium", sans-serif;
+    --font-Montserrat-bold: "Montserrat-bold", sans-serif;
+    --font-Montserrat-light: "Montserrat-light", sans-serif;
+    
+
+    --color-main: #01090F;
+    --color-light-black: #1A1A1A;
+    --color-placehold: #757575;
+
+    --breakpoint-sm: 640px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 1024px;
+    --breakpoint-xl: 1280px;
+    --breakpoint-2xl: 1536px;
+    --breakpoint-3xl: 1910px;
+
+    --border-width-12: 12px;
+
+    --max-width-container: 1440px;
+    --max-width-724: 724px;
+
+    --max-width-594: 594px;
+
+    --leading-76: 76px;
+    --leading-50: 50px;
+    --leading-32: 32px;
+
+    --radius-10: 10px;
+    --radius-20: 20px;
+
+    --spacing: 1px;
+
+    --text-62: 62px;
+    --text-38: 38px;
+    --text-26: 26px;
+    --text-18: 18px;
+
+
+    --shadow-soft: 0 18px 45px rgba(15, 23, 42, 0.1);
+}
+
+@layer base {
+    body {
+        @apply antialiased;
+        font-family: 'Montserrat-regular', sans-serif;
+        color: #01090F;
+    }
+
+}
