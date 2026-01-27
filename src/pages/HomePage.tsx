@@ -1,6 +1,5 @@
 
-import { AboutUsSection, HeroSection } from "../components/organisms";
-import BenifitsSection from "../components/organisms/BenifitsSection";
+import { AboutUsSection, BenifitsSection, HeroSection, NeighborhoodsSection } from "../components/organisms";
 import { Layout } from "../components/templates/Layout/Layout";
 
 export const HomePage = () => {
@@ -9,6 +8,7 @@ export const HomePage = () => {
             <HeroSection />
             <AboutUsSection />
             <BenifitsSection />
+            <NeighborhoodsSection />
         </Layout>
 
     );

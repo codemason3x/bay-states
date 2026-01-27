@@ -1,3 +1,5 @@
+import { benifitItems } from "../../config";
+import { BenifitCard } from "../molecules";
 
 
 export default function BenifitsSection() {
@@ -6,8 +8,10 @@ export default function BenifitsSection() {
             <div className="text-center text-38 font-Montserrat-bold uppercase">
                 Why Us
             </div>
-            <div className="grid gird-cols-3 gap-20">
-
+            <div className="grid grid-cols-3 gap-20">
+                {benifitItems.map((value, index)=>(
+                    <BenifitCard key={index} icon={value.icon} title={value.title} description={value.description} button="read more" />
+                ))}
             </div>
            
         </div>

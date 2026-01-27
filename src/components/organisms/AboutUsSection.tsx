@@ -1,13 +1,11 @@
 import { addressItems } from "../../config";
-import { ConnectAddress } from "../atoms";
+import { ConnectAddress, Title } from "../atoms";
 
 export default function AboutUsSection() {
     return (
         <div className="relative px-50 pt-80 pb-120 bg-main">
             <div className="flex flex-col gap-70 ">
-                <div className="font-Montserrat-bold text-38 leading-50 text-white">
-                    ABOUT US
-                </div>
+                <Title content="about us" className="text-white text-left" />
                 <div className="grid grid-cols-2 gap-40">
                     <img src="/image/people.png" alt="people" className="object-cover rounded-20" />
                     <div className="rounded-20 px-35 pt-35 py-40 bg-white flex flex-col gap-16  mt-160">

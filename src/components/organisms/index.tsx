@@ -1,17 +1,12 @@
 import AboutUsSection from "./AboutUsSection";
-import FAQSection from "./FAQSection";
-import FeaturesSection from "./FeaturesSection";
-import FooterSection from "./FooterSection";
-import HeaderSection from "./HeaderSection";
+import BenifitsSection from "./BenifitsSection";
 import HeroSection from "./HeroSection";
-import StepsSection from "./BenifitsSection";
+import NeighborhoodsSection from "./NeighborhoodsSection";
 
 export {
-    AboutUsSection,
-    FAQSection,
-    FeaturesSection,
-    FooterSection,
-    HeaderSection,
     HeroSection,
-    StepsSection
+    AboutUsSection,
+    BenifitsSection,
+    NeighborhoodsSection,
+
 }

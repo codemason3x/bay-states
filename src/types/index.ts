@@ -15,3 +15,9 @@ export interface benifitItem {
     description:string;
 };
 
+export interface HouseItem {
+    image: string;
+    title: string;
+    height:string;
+};
+
