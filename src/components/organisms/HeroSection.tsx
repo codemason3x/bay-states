@@ -1,3 +1,4 @@
+import { Title } from "../atoms"
 
 
 export default function HeroSection() {
@@ -5,9 +6,7 @@ export default function HeroSection() {
         <div className="relative overflow-hidden w-full ">
             <img src="/image/hero.jpg" alt="hero" className="w-full" />
             <div className="absolute w-full top-304">
-                <div className="font-Montserrat-bold text-center text-white uppercase leading-76 text-62 mb-40">
-                    Your Next Move Starts Here!
-                </div>
+                <Title content="Your Next Move Starts Here!" className=" text-white leading-76 text-62 mb-40" />
                 <div className="w-full">
                     <div className="relative mx-auto max-w-724">
                         <input type="text"

@@ -1,5 +1,5 @@
 import type { ReactNode } from 'react';
-import { FooterSection, HeaderSection } from '../../organisms';
+// import { FooterSection, HeaderSection } from '../../organisms';
 
 interface LayoutProps {
     children?: ReactNode;
@@ -8,9 +8,9 @@ interface LayoutProps {
 export function Layout({ children }: LayoutProps) {
     return (
         <div className="relative w-full overflow-hidden">
-            <HeaderSection />
+            {/* <HeaderSection /> */}
             {children}
-            <FooterSection />
+            {/* <FooterSection /> */}
         </div>
     );
 }
