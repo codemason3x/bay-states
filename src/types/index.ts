@@ -21,3 +21,21 @@ export interface HouseItem {
     height:string;
 };
 
+export interface ReviewItem {
+    image: string;
+    icon: string;
+    description: string;
+    name:string;
+};
+
+export interface ContactAddressItem {
+    icon: string;
+    content: string;
+};
+
+export interface ClientInfoItem {
+    type: string;
+    placeholder: string;
+};
+
+
