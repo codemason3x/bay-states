@@ -37,5 +37,3 @@ export interface ClientInfoItem {
     type: string;
     placeholder: string;
 };
-
-

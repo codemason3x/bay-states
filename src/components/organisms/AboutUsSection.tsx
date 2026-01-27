@@ -17,7 +17,7 @@ export default function AboutUsSection() {
                         </div>
                         <div className="flex flex-col gap-16">
                             {addressItems.map((value, index)=>(
-                                <ContactAddress key={index} icon={value.icon} phone={value.address} />
+                                <ContactAddress key={index} icon={value.icon} content={value.address} />
                             ))}
                         </div>
                     </div>
