@@ -48,7 +48,17 @@ export const ContactAddressItems: ContactAddressItem[] = [
 export const ClientInfoItems: ClientInfoItem[] = [
     { type:'text', placeholder:'Name' },
     { type:'email', placeholder:'Email Address' },
-    { type:'text', placeholder:'Phone' },
+    { type:'text', placeholder:'content' },
     { type:'text', placeholder:'Subject' },
     { type:'textarea', placeholder:'Message' },
 ]
+
+export const GroupAddressItems: ContactAddressItem[] = [
+    { icon: 'g-location.png', content: '10050 Baltimore National Pike, Ellicott City, MD, 21042' },
+    { icon: 'g-call.png', content: '(410) 914-7355' },
+    { icon: 'g-mail.png', content: 'Nick@BayStatesHomeGroup.com' },
+]
+
+export const SectionItems=['popular page', 'home', 'buy', 'sell', 'communities', 'financing', 'testimonials', 'team', 'contact us', 'blog']
+    
+

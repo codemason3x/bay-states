@@ -52,17 +52,12 @@
     --font-Montserrat-light: "Montserrat-light", sans-serif;
     --font-Montserrat-mediumItalic: "Montserrat-mediumItalic", sans-serif;
 
-    
-    
-
     --color-main: #01090F;
     --color-light-black: #1A1A1A;
     --color-placehold: #757575;
     --color-instagram: #F1F1F1;
     --color-light-gray: #939393;
     --color-checkbox: #C7C7C7;
-    
-    
 
     --breakpoint-sm: 640px;
     --breakpoint-md: 768px;
@@ -88,7 +83,6 @@
     --radius-10: 10px;
     --radius-8: 8px;
 
-
     --spacing: 1px;
 
     --text-62: 62px;
@@ -97,7 +91,7 @@
     --text-20: 20px;
     --text-18: 18px;
     --text-14: 14px;
-
+    --text-12: 12px;
 
     --shadow-soft: 0 18px 45px rgba(15, 23, 42, 0.1);
 }
