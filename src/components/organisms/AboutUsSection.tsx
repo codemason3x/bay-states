@@ -1,5 +1,5 @@
 import { addressItems } from "../../config";
-import { ConnectAddress, Title } from "../atoms";
+import { ContactAddress, Title } from "../atoms";
 
 export default function AboutUsSection() {
     return (
@@ -17,7 +17,7 @@ export default function AboutUsSection() {
                         </div>
                         <div className="flex flex-col gap-16">
                             {addressItems.map((value, index)=>(
-                                <ConnectAddress key={index} icon={value.icon} phone={value.address} />
+                                <ContactAddress key={index} icon={value.icon} phone={value.address} />
                             ))}
                         </div>
                     </div>
