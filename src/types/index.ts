@@ -1,7 +1,6 @@
 export interface NavItem {
     content: string;
-    label: string;
-    href: string;
+    href?: string;
 };
 
 export interface addressItem {
@@ -12,20 +11,20 @@ export interface addressItem {
 export interface benifitItem {
     icon: string;
     title: string;
-    description:string;
+    description: string;
 };
 
 export interface HouseItem {
     image: string;
     title: string;
-    height:string;
+    height: string;
 };
 
 export interface ReviewItem {
     image: string;
     icon: string;
     description: string;
-    name:string;
+    name: string;
 };
 
 export interface ContactAddressItem {
@@ -36,4 +35,18 @@ export interface ContactAddressItem {
 export interface ClientInfoItem {
     type: string;
     placeholder: string;
+};
+
+export interface FeaturedItem {
+    icon: string;
+    address: string;
+    postCode: string;
+    properties: PropertyItem[];
+    date:string;
+    
+};
+
+export interface PropertyItem {
+    property: string;
+    value: string;
 };

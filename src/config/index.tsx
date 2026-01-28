@@ -1,4 +1,16 @@
-import type { addressItem, benifitItem, ClientInfoItem, ContactAddressItem, HouseItem, ReviewItem } from "../types";
+import type { addressItem, benifitItem, ClientInfoItem, ContactAddressItem, FeaturedItem, HouseItem, NavItem, ReviewItem } from '../types';
+
+export const NavigationItems: NavItem[] = [
+    { content:'home' },
+    { content:'buy' },
+    { content:'sell' },
+    { content:'communities' },
+    { content:'financing' },
+    { content:'testimonials' },
+    { content:'team' },
+    { content:'contact us' },
+    { content:'blog' },
+];
 
 export const addressItems: addressItem[] = [
     { icon: 'call.svg', address: '(410) 914-7355 (Nick direct)' },
@@ -46,11 +58,11 @@ export const ContactAddressItems: ContactAddressItem[] = [
 ]
 
 export const ClientInfoItems: ClientInfoItem[] = [
-    { type:'text', placeholder:'Name' },
-    { type:'email', placeholder:'Email Address' },
-    { type:'text', placeholder:'content' },
-    { type:'text', placeholder:'Subject' },
-    { type:'textarea', placeholder:'Message' },
+    { type: 'text', placeholder: 'Name' },
+    { type: 'email', placeholder: 'Email Address' },
+    { type: 'text', placeholder: 'content' },
+    { type: 'text', placeholder: 'Subject' },
+    { type: 'textarea', placeholder: 'Message' },
 ]
 
 export const GroupAddressItems: ContactAddressItem[] = [
@@ -59,6 +71,68 @@ export const GroupAddressItems: ContactAddressItem[] = [
     { icon: 'g-mail.png', content: 'Nick@BayStatesHomeGroup.com' },
 ]
 
-export const SectionItems=['popular page', 'home', 'buy', 'sell', 'communities', 'financing', 'testimonials', 'team', 'contact us', 'blog']
-    
+export const SectionItems = ['popular page', 'home', 'buy', 'sell', 'communities', 'financing', 'testimonials', 'team', 'contact us', 'blog']
+
+export const FeaturedListings: FeaturedItem[] = [
+    {
+        icon: 'list1.png',
+        address: '9345 Indian Trail Way 9345',
+        postCode: 'Perry Hall, MD 21128',
+        properties:[
+            {property:'price', value:'$455,000'},
+            {property:'beds', value:'5'},
+            {property:'baths', value:'4'},
+            {property:'sqft', value:'2,048'},
+        ],
+        date:'Listed 1 Day Ago'
+    },
+    {
+        icon: 'list2.png',
+        address: '9510 Coyle Rd 409',
+        postCode: 'PeOwings Mills, MD 21117',
+        properties:[
+            {property:'price', value:'$4290,000'},
+            {property:'beds', value:'2'},
+            {property:'baths', value:'5'},
+            {property:'sqft', value:'1,620'},
+        ],
+        date:'Listed 3 Day Ago'
+    },
+    {
+        icon: 'list3.png',
+        address: '9510 Coyle Rd 409',
+        postCode: 'Owings Mills, MD 21117',
+        properties:[
+            {property:'price', value:'$4290,000'},
+            {property:'beds', value:'2'},
+            {property:'baths', value:'5'},
+            {property:'sqft', value:'1,620'},
+        ],
+        date:'Listed 4 Day Ago'
+    },
+    {
+        icon: 'list4.png',
+        address: '7854 Kentley Rd',
+        postCode: 'Dundalk, MD 21222',
+        properties:[
+            {property:'price', value:'$175,000'},
+            {property:'beds', value:'3'},
+            {property:'baths', value:'2'},
+            {property:'sqft', value:'1,152'},
+        ],
+        date:'Listed 2 Day Ago'
+    },
+    {
+        icon: 'list1.png',
+        address: '9345 Indian Trail Way 9345',
+        postCode: 'Perry Hall, MD 21128',
+        properties:[
+            {property:'price', value:'$455,000'},
+            {property:'beds', value:'5'},
+            {property:'baths', value:'4'},
+            {property:'sqft', value:'2,048'},
+        ],
+        date:'Listed 1 Day Ago'
+    },
+]
 

@@ -1,12 +1,10 @@
 import { GroupAddressItems, SectionItems } from "../../config";
-import { FooterAddress, Title } from "../atoms";
-
+import { FooterAddress } from "../atoms";
 
 export default function GroupSection() {
     return (
         <div className="relative px-50 pt-40 pb-60 bg-main border-b-2 border-white">
             <div className="flex flex-col gap-60 items-center">
-
                 <img src="/image/footer-Logo.png" alt="footer-Logo.png" />
                 <div className="grid grid-cols-3 gap-20 w-full">
                     {GroupAddressItems.map((value, index) => (

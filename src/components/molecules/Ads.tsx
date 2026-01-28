@@ -1,4 +1,4 @@
-import Title from "./title";
+import { Title } from "../atoms";
 
 interface AdsProps {
   image?: string;
@@ -18,7 +18,7 @@ export default function Ads({ image, title, height }: AdsProps) {
       </div>
 
       <div className="absolute top-0 left-0 size-full flex justify-center items-center invisible group-hover/ads:visible">
-        <div className=" left-130 w-400 h-270 rounded-15 backdrop-blur-sm p-50 text-white font-Montserrat-medium text-center flex flex-col gap-16">
+        <div className="left-130 w-400 h-270 rounded-15 backdrop-blur-sm p-50 text-white font-Montserrat-medium text-center flex flex-col gap-16">
           <div className="text-20 leading-26 uppercase">
             9345 Indian Trail way 9345 Perry Hall MD 21128
           </div>
