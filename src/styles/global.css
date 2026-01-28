@@ -58,7 +58,10 @@
     --color-instagram: #F1F1F1;
     --color-light-gray: #939393;
     --color-checkbox: #C7C7C7;
+    --color-featureCard: #50505F;
+    --color-property-border: #E6E6E6 ;
 
+    --breakpoint-mini: 376px;
     --breakpoint-sm: 640px;
     --breakpoint-md: 768px;
     --breakpoint-lg: 1024px;
@@ -70,14 +73,15 @@
 
     --max-width-container: 1440px;
     --max-width-724: 724px;
-
     --max-width-594: 594px;
+
+    --min-width-1440: 1440px;
 
     --leading-76: 76px;
     --leading-50: 50px;
     --leading-32: 32px;
     --leading-26: 26px;
-
+    --leading-22: 22px;
     --radius-20: 20px;
     --radius-15: 15px;
     --radius-10: 10px;
@@ -86,12 +90,15 @@
     --spacing: 1px;
 
     --text-62: 62px;
+    --text-42: 42px;
     --text-38: 38px;
     --text-26: 26px;
     --text-20: 20px;
     --text-18: 18px;
+    --text-16: 16px;
     --text-14: 14px;
     --text-12: 12px;
+    --text-11: 11px;
 
     --shadow-soft: 0 18px 45px rgba(15, 23, 42, 0.1);
 }
