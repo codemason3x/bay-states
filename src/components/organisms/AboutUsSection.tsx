@@ -3,13 +3,13 @@ import { ContactAddress, Title } from "../atoms";
 
 export default function AboutUsSection() {
     return (
-        <div className="relative px-50 pt-80 pb-120 bg-main">
-            <div className="flex flex-col gap-70 ">
-                <Title content="about us" className="text-white text-left" />
-                <div className="grid grid-cols-2 gap-40">
-                    <img src="/image/people.png" alt="people" className="object-cover rounded-20" />
-                    <div className="rounded-20 px-35 pt-35 py-40 bg-white flex flex-col gap-16  mt-160">
-                        <div className="text-black font-bold font-Montserrat-bold text-26 leading-32">
+        <div className="relative px-50 pt-80 pb-120  max-md:pt-40 max-md:pb-60 max-md:px-15 bg-main">
+            <div className="flex flex-col gap-70 max-md:gap-36 ">
+                <Title content="about us" className="text-white text-left max-md:text-28 max-md:leading-36" />
+                <div className="grid grid-cols-2 max-lg:grid-cols-1 max-lg:place-items-center gap-40">
+                    <img src="/image/people.png" alt="people" className="object-cover rounded-20 max-md:max-w-450 w-full" />
+                    <div className="rounded-20 px-35 max-md:px-20 pt-35 max-md:py-20 py-40 bg-white flex flex-col gap-16  mt-160 max-lg:mt-0 ">
+                        <div className="text-black font-bold font-Montserrat-bold text-26 max-md:text-22 max-md:leading-26 leading-32">
                             Nick & Cailean
                         </div>
                         <div className="text-black">
