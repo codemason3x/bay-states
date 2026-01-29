@@ -1,117 +1,286 @@
 @import 'tailwindcss';
+
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
 @font-face {
-    font-family: Montserrat-ExtraBold;
-    font-style: bold;
-    font-weight: 200 700;
-    font-display: swap;
-    src: url("../../public/font/montserrat-webfont/Montserrat-ExtraBold.ttf") format("woff2");
+  font-family: Montserrat-ExtraBold;
+  font-style: bold;
+  font-weight: 200 700;
+  font-display: swap;
+  src: url("../../public/font/montserrat-webfont/Montserrat-ExtraBold.ttf") format("woff2");
 }
 
 @font-face {
-    font-family: Montserrat-regular;
-    font-style: normal;
-    font-weight: 200 700;
-    font-display: swap;
-    src: url("../../public/font/montserrat-webfont/Montserrat-Regular.ttf") format("woff2");
+  font-family: Montserrat-regular;
+  font-style: normal;
+  font-weight: 200 700;
+  font-display: swap;
+  src: url("../../public/font/montserrat-webfont/Montserrat-Regular.ttf") format("woff2");
 }
+
 @font-face {
-    font-family: Montserrat-light;
-    font-style: normal;
-    font-weight: 200 700;
-    font-display: swap;
-    src: url("../../public/font/montserrat-webfont/Montserrat-ExtraLight.ttf") format("woff2");
+  font-family: Montserrat-light;
+  font-style: normal;
+  font-weight: 200 700;
+  font-display: swap;
+  src: url("../../public/font/montserrat-webfont/Montserrat-ExtraLight.ttf") format("woff2");
 }
+
 @font-face {
-    font-family: Montserrat-medium;
-    font-style: normal;
-    font-weight: 100 700;
-    font-display: swap;
-    src: url("../../public/font/montserrat-webfont/Montserrat-Medium.ttf") format("woff2");
+  font-family: Montserrat-medium;
+  font-style: normal;
+  font-weight: 100 700;
+  font-display: swap;
+  src: url("../../public/font/montserrat-webfont/Montserrat-Medium.ttf") format("woff2");
 }
+
 @font-face {
-    font-family: Montserrat-bold;
-    font-style: normal;
-    font-weight: 100 700;
-    font-display: swap;
-    src: url("../../public/font/montserrat-webfont/Montserrat-Bold.ttf") format("woff2");
+  font-family: Montserrat-bold;
+  font-style: normal;
+  font-weight: 100 700;
+  font-display: swap;
+  src: url("../../public/font/montserrat-webfont/Montserrat-Bold.ttf") format("woff2");
 }
+
 @font-face {
-    font-family: Montserrat-mediumItalic;
-    font-style: normal;
-    font-weight: 100 700;
-    font-display: swap;
-    src: url("../../public/font/montserrat-webfont/Montserrat-MediumItalic.ttf") format("woff2");
+  font-family: Montserrat-mediumItalic;
+  font-style: normal;
+  font-weight: 100 700;
+  font-display: swap;
+  src: url("../../public/font/montserrat-webfont/Montserrat-MediumItalic.ttf") format("woff2");
 }
 
 @theme {
-    --font-ExtraBold: "Montserrat-ExtraBold", sans-serif;
-    --font-Montserrat-medium: "Montserrat-medium", sans-serif;
-    --font-Montserrat-bold: "Montserrat-bold", sans-serif;
-    --font-Montserrat-light: "Montserrat-light", sans-serif;
-    --font-Montserrat-mediumItalic: "Montserrat-mediumItalic", sans-serif;
+  --font-ExtraBold: "Montserrat-ExtraBold", sans-serif;
+  --font-Montserrat-medium: "Montserrat-medium", sans-serif;
+  --font-Montserrat-bold: "Montserrat-bold", sans-serif;
+  --font-Montserrat-light: "Montserrat-light", sans-serif;
+  --font-Montserrat-mediumItalic: "Montserrat-mediumItalic", sans-serif;
 
-    --color-main: #01090F;
-    --color-light-black: #1A1A1A;
-    --color-placehold: #757575;
-    --color-instagram: #F1F1F1;
-    --color-light-gray: #939393;
-    --color-checkbox: #C7C7C7;
-    --color-featureCard: #50505F;
-    --color-property-border: #E6E6E6 ;
+  --color-main: #01090F;
+  --color-light-black: #1A1A1A;
+  --color-placehold: #757575;
+  --color-instagram: #F1F1F1;
+  --color-light-gray: #939393;
+  --color-checkbox: #C7C7C7;
+  --color-featureCard: #50505F;
+  --color-property-border: #E6E6E6;
 
-    --breakpoint-mini: 376px;
-    --breakpoint-sm: 640px;
-    --breakpoint-md: 768px;
-    --breakpoint-lg: 1024px;
-    --breakpoint-xl: 1280px;
-    --breakpoint-1440: 1440px;
-    --breakpoint-2xl: 1536px;
-    --breakpoint-1800: 1800px;
-    --breakpoint-3xl: 1910px;
+  --breakpoint-mini: 376px;
+  --breakpoint-sm: 640px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 1024px;
+  --breakpoint-xl: 1280px;
+  --breakpoint-1440: 1440px;
+  --breakpoint-2xl: 1536px;
+  --breakpoint-1800: 1800px;
+  --breakpoint-3xl: 1910px;
 
-    --border-width-12: 12px;
+  --border-width-12: 12px;
 
-    --max-width-container: 1440px;
-    --max-width-724: 724px;
-    --max-width-594: 594px;
-    --min-width-1440: 1440px;
+  --max-width-container: 1440px;
+  --max-width-724: 724px;
+  --max-width-594: 594px;
+  --min-width-1440: 1440px;
 
-    --leading-76: 76px;
-    --leading-50: 50px;
-    --leading-32: 32px;
-    --leading-26: 26px;
-    --leading-22: 22px;
-    --radius-20: 20px;
-    --radius-15: 15px;
-    --radius-10: 10px;
-    --radius-8: 8px;
+  --leading-76: 76px;
+  --leading-50: 50px;
+  --leading-32: 32px;
+  --leading-26: 26px;
+  --leading-22: 22px;
+  --radius-20: 20px;
+  --radius-15: 15px;
+  --radius-10: 10px;
+  --radius-8: 8px;
 
-    --spacing: 1px;
+  --spacing: 1px;
 
-    --text-62: 62px;
-    --text-42: 42px;
-    --text-38: 38px;
-    --text-30: 30px;
-    --text-28: 28px;
-    --text-26: 26px;
-    --text-22: 22px;
-    --text-20: 20px;
-    --text-18: 18px;
-    --text-16: 16px;
-    --text-14: 14px;
-    --text-12: 12px;
-    --text-11: 11px;
+  --text-62: 62px;
+  --text-42: 42px;
+  --text-38: 38px;
+  --text-30: 30px;
+  --text-28: 28px;
+  --text-26: 26px;
+  --text-22: 22px;
+  --text-20: 20px;
+  --text-18: 18px;
+  --text-16: 16px;
+  --text-14: 14px;
+  --text-12: 12px;
+  --text-11: 11px;
 
-    --shadow-soft: 0 18px 45px rgba(15, 23, 42, 0.1);
+  --shadow-soft: 0 18px 45px rgba(15, 23, 42, 0.1);
 }
 
-@layer base {
-    body {
-        @apply antialiased;
-        font-family: 'Montserrat-regular', sans-serif;
-        color: #01090F;
-    }
 
+@layer base {
+  body {
+    @apply antialiased;
+    font-family: 'Montserrat-regular', sans-serif;
+    color: #01090F;
+  }
+
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.embla {
+
+  margin: auto;
+  --slide-height: 19rem;
+  --slide-spacing: 1rem;
+  --slide-size: 90%;
+}
+
+.embla__viewport {
+  overflow: hidden;
+}
+
+.embla__container {
+  display: flex;
+  touch-action: pan-y pinch-zoom;
+  margin-left: calc(var(--slide-spacing) * 3);
+  padding-bottom: 1px;
+}
+
+
+.embla__container {
+  gap: 20px;
+}
+
+.embla__slide {
+  flex: 0 0 calc(50% - 10px);
+  min-width: 0;
+}
+
+.embla__slide:last-child {
+  margin-right: 20px;
+}
+
+.embla__slide__number {
+  border: 0.2rem solid var(--detail-medium-contrast);
+  border-radius: 1.8rem;
+  font-size: 4rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: var(--slide-height);
+  user-select: none;
+}
+
+.embla__controls {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  justify-content: space-between;
+  gap: 1.2rem;
+  margin-top: 1.8rem;
+}
+
+.embla__buttons {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.6rem;
+  align-items: center;
+}
+
+.embla__button {
+  -webkit-tap-highlight-color: rgba(var(--text-high-contrast-rgb-value), 0.5);
+  -webkit-appearance: none;
+  appearance: none;
+  background-color: transparent;
+  touch-action: manipulation;
+  display: inline-flex;
+  text-decoration: none;
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  margin: 0;
+  border: 0.2rem solid var(--detail-medium-contrast);
+  width: 3.6rem;
+  height: 3.6rem;
+  z-index: 1;
+  border-radius: 50%;
+  color: var(--text-body);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: rotate(0deg);
+}
+
+.embla__button--disabled {
+  color: var(--detail-high-contrast);
+}
+
+.embla__button__svg {
+  width: 35%;
+  height: 35%;
+}
+
+.embla__dots {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: calc((2.6rem - 1.4rem) / 2 * -1);
+}
+
+.embla__dot {
+  -webkit-tap-highlight-color: rgba(var(--text-high-contrast-rgb-value), 0.5);
+  -webkit-appearance: none;
+  appearance: none;
+  background-color: transparent;
+  touch-action: manipulation;
+  display: inline-flex;
+  text-decoration: none;
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  margin: 0;
+  width: 2.6rem;
+  height: 2.6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  position: relative;
+}
+
+.embla__dot:before,
+.embla__dot:after {
+  width: 1.4rem;
+  height: 1.4rem;
+  border-radius: 50%;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  content: '';
+}
+
+.embla__dot:before {
+  border: 0.2rem solid var(--detail-medium-contrast);
+}
+
+.embla__dot:after {
+  border: 0.2rem solid var(--text-body);
+  opacity: 0;
+}
+
+.embla__dot--selected:after {
+  opacity: 1;
+}
+
+.embla__live-region {
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  position: absolute;
 }

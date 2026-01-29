@@ -13,22 +13,22 @@ export default function GroupSection() {
                 </div>
                 <div className="grid grid-cols-2 max-lg:grid-cols-1 w-full max-lg:gap-40">
                     <div className="flex justify-between max-[420px]:flex-col items-end max-[420px]:items-center max-[420px]:gap-40">
-                        <div className="flex flex-col gap-20  max-[420px]:items-center  ">
+                        <div className="flex flex-col gap-20 max-[420px]:items-center">
                             {SectionItems.map((value, index) => (
                                 <span key={index} className="text-white text-16 font-Montserrat-medium uppercase">{value}</span>
                             ))}
                         </div>
                         <div className=" max-[420px]:text-center">
-                            <img src="/image/mortgage.png" alt="mortgage.png" className="w-170 h-70 mb-16  max-[420px]:mx-auto" />
+                            <img src="/image/mortgage.png" alt="mortgage.png" className="w-170 h-70 mb-16 max-[420px]:mx-auto" />
                             <div>
                                 <p className="text-white text-14 font-Montserrat-bold mb-10">David Ferrell </p>
                                 <p className="text-white text-14 mb-10">Senior Mortgage Loan Officer </p>
                                 <p className="text-white text-14 font-Montserrat-bold mb-10">Contour Mortgage </p>
                                 <p className="text-white text-14 mb-10">NMLS# 917155 </p>
-                                <p className="text-white text-14 font-Montserrat-bold mb-10"><span className="font-Montserrat-bold">Email:</span>  dferrell@contourmtg.com </p>
+                                <p className="text-white text-14 font-Montserrat-bold mb-10"><span className="font-Montserrat-bold">Email:</span> dferrell@contourmtg.com </p>
                                 <p className="text-white text-14 font-Montserrat-bold mb-10"><span className="font-Montserrat-bold">Phone: </span>(443) 517-9546 </p>
                                 <p className="text-white text-14 mb-10">555 Fairmount Ave, Suite 301</p>
-                                <p className="text-white text-14 mb-10">Towson, MD. 21286  </p>
+                                <p className="text-white text-14 mb-10">Towson, MD. 21286</p>
                             </div>
                             <div className="mt-32">
                                 <img src="/image/compass.png" alt="" className="w-170 h-22 mb-16 max-[420px]:m-auto" />
@@ -42,7 +42,6 @@ export default function GroupSection() {
                         <img src="/image/facebook.png" alt="facebook" />
                         <img src="/image/instagram.png" alt="instagram" />
                     </div>
-
                 </div>
             </div>
         </div>

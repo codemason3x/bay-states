@@ -8,8 +8,8 @@ interface ReviewCardProps {
 export default function ReviewCard({ image, icon, description, name }: ReviewCardProps) {
     return (
         <div className="xl:w-1000 flex gap-20 justify-center max-md:flex-col text-white">
-            <div className="flex-none max-md:max-h-316  flex justify-center ">
-                <div className="max-md:h-316 max-mini:h-[80dvw] max-md:w-345 max-mini:w-full rounded-10  overflow-hidden ">
+            <div className="flex-none max-md:max-h-316 flex justify-center ">
+                <div className="max-md:h-316 max-mini:h-[80dvw] max-md:w-345 max-mini:w-full rounded-10 overflow-hidden ">
                     <img src={`/image/${image}`} alt={image} className="m-auto max-md:w-345 max-md:" />
                 </div>
             </div>
@@ -42,7 +42,5 @@ export default function ReviewCard({ image, icon, description, name }: ReviewCar
                 </div>
             </div>
         </div>
-
-
     );
 }

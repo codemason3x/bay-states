@@ -16,12 +16,11 @@ export default function NeighborhoodsSection() {
                         <Ads key={index} image={value.image} title={value.title} height={value.height} />
                     ))}
                 </div>
-
             </div>
             <div className="grid grid-cols-1 gap-20 pt-40 pb-70 md:hidden">
-                    {NeighborhoodItems.map((value, index) => (
-                        <Ads key={index} image={value.image} title={value.title} height={value.height} />
-                    ))}
+                {NeighborhoodItems.map((value, index) => (
+                    <Ads key={index} image={value.image} title={value.title} height={value.height} />
+                ))}
             </div>
         </div>
     );

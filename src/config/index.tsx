@@ -131,7 +131,7 @@ export const FeaturedListings: FeaturedItem[] = [
         ],
         date: 'Listed 2 Day Ago'
     },
-    {
+     {
         icon: 'list1.png',
         address: '9345 Indian Trail Way 9345',
         postCode: 'Perry Hall, MD 21128',
@@ -142,6 +142,42 @@ export const FeaturedListings: FeaturedItem[] = [
             { property: 'sqft', value: '2,048' },
         ],
         date: 'Listed 1 Day Ago'
+    },
+    {
+        icon: 'list2.png',
+        address: '9510 Coyle Rd 409',
+        postCode: 'PeOwings Mills, MD 21117',
+        properties: [
+            { property: 'price', value: '$4290,000' },
+            { property: 'beds', value: '2' },
+            { property: 'baths', value: '5' },
+            { property: 'sqft', value: '1,620' },
+        ],
+        date: 'Listed 3 Day Ago'
+    },
+    {
+        icon: 'list3.png',
+        address: '9510 Coyle Rd 409',
+        postCode: 'Owings Mills, MD 21117',
+        properties: [
+            { property: 'price', value: '$4290,000' },
+            { property: 'beds', value: '2' },
+            { property: 'baths', value: '5' },
+            { property: 'sqft', value: '1,620' },
+        ],
+        date: 'Listed 4 Day Ago'
+    },
+    {
+        icon: 'list4.png',
+        address: '7854 Kentley Rd',
+        postCode: 'Dundalk, MD 21222',
+        properties: [
+            { property: 'price', value: '$175,000' },
+            { property: 'beds', value: '3' },
+            { property: 'baths', value: '2' },
+            { property: 'sqft', value: '1,152' },
+        ],
+        date: 'Listed 2 Day Ago'
     },
 ]
 
