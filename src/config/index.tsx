@@ -1,15 +1,15 @@
 import type { addressItem, benifitItem, ClientInfoItem, ContactAddressItem, FeaturedItem, HouseItem, NavItem, ReviewItem } from '../types';
 
 export const NavigationItems: NavItem[] = [
-    { content:'home' },
-    { content:'buy' },
-    { content:'sell' },
-    { content:'communities' },
-    { content:'financing' },
-    { content:'testimonials' },
-    { content:'team' },
-    { content:'contact us' },
-    { content:'blog' },
+    { content: 'home' },
+    { content: 'buy' },
+    { content: 'sell' },
+    { content: 'communities' },
+    { content: 'financing' },
+    { content: 'testimonials' },
+    { content: 'team' },
+    { content: 'contact us' },
+    { content: 'blog' },
 ];
 
 export const addressItems: addressItem[] = [
@@ -47,6 +47,15 @@ export const RightHouseItems: HouseItem[] = [
     { image: 'house6.png', title: 'Ellicott city', height: '396' },
 ]
 
+export const NeighborhoodItems: HouseItem[] = [
+    { image: 'house1.png', title: 'Howard country', height: '396' },
+    { image: 'house4.png', title: 'India', height: '570' },
+    { image: 'house2.png', title: 'Columbia', height: '396' },
+    { image: 'house5.png', title: 'Laurel', height: '396' },
+    { image: 'house3.png', title: 'Catonsville', height: '570' },
+    { image: 'house6.png', title: 'Ellicott city', height: '396' },
+]
+
 export const ReviewItems: ReviewItem[] = [
     { image: 'client1.png', icon: 'zillow.png', description: ' Nick helped me buy my first home and it was the best experience I could have asked for. He took the time to learn and understand my needs and wants as a first time home buyer, we only toured three homes ...', name: 'Morgan Cavanaugh' },
 ]
@@ -78,61 +87,61 @@ export const FeaturedListings: FeaturedItem[] = [
         icon: 'list1.png',
         address: '9345 Indian Trail Way 9345',
         postCode: 'Perry Hall, MD 21128',
-        properties:[
-            {property:'price', value:'$455,000'},
-            {property:'beds', value:'5'},
-            {property:'baths', value:'4'},
-            {property:'sqft', value:'2,048'},
+        properties: [
+            { property: 'price', value: '$455,000' },
+            { property: 'beds', value: '5' },
+            { property: 'baths', value: '4' },
+            { property: 'sqft', value: '2,048' },
         ],
-        date:'Listed 1 Day Ago'
+        date: 'Listed 1 Day Ago'
     },
     {
         icon: 'list2.png',
         address: '9510 Coyle Rd 409',
         postCode: 'PeOwings Mills, MD 21117',
-        properties:[
-            {property:'price', value:'$4290,000'},
-            {property:'beds', value:'2'},
-            {property:'baths', value:'5'},
-            {property:'sqft', value:'1,620'},
+        properties: [
+            { property: 'price', value: '$4290,000' },
+            { property: 'beds', value: '2' },
+            { property: 'baths', value: '5' },
+            { property: 'sqft', value: '1,620' },
         ],
-        date:'Listed 3 Day Ago'
+        date: 'Listed 3 Day Ago'
     },
     {
         icon: 'list3.png',
         address: '9510 Coyle Rd 409',
         postCode: 'Owings Mills, MD 21117',
-        properties:[
-            {property:'price', value:'$4290,000'},
-            {property:'beds', value:'2'},
-            {property:'baths', value:'5'},
-            {property:'sqft', value:'1,620'},
+        properties: [
+            { property: 'price', value: '$4290,000' },
+            { property: 'beds', value: '2' },
+            { property: 'baths', value: '5' },
+            { property: 'sqft', value: '1,620' },
         ],
-        date:'Listed 4 Day Ago'
+        date: 'Listed 4 Day Ago'
     },
     {
         icon: 'list4.png',
         address: '7854 Kentley Rd',
         postCode: 'Dundalk, MD 21222',
-        properties:[
-            {property:'price', value:'$175,000'},
-            {property:'beds', value:'3'},
-            {property:'baths', value:'2'},
-            {property:'sqft', value:'1,152'},
+        properties: [
+            { property: 'price', value: '$175,000' },
+            { property: 'beds', value: '3' },
+            { property: 'baths', value: '2' },
+            { property: 'sqft', value: '1,152' },
         ],
-        date:'Listed 2 Day Ago'
+        date: 'Listed 2 Day Ago'
     },
     {
         icon: 'list1.png',
         address: '9345 Indian Trail Way 9345',
         postCode: 'Perry Hall, MD 21128',
-        properties:[
-            {property:'price', value:'$455,000'},
-            {property:'beds', value:'5'},
-            {property:'baths', value:'4'},
-            {property:'sqft', value:'2,048'},
+        properties: [
+            { property: 'price', value: '$455,000' },
+            { property: 'beds', value: '5' },
+            { property: 'baths', value: '4' },
+            { property: 'sqft', value: '2,048' },
         ],
-        date:'Listed 1 Day Ago'
+        date: 'Listed 1 Day Ago'
     },
 ]
 
