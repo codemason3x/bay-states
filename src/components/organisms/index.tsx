@@ -22,7 +22,4 @@ export {
     ContactSection,
     GroupSection,
     FooterSection,
-
-
-
 }

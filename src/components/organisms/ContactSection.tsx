@@ -32,7 +32,7 @@ export default function ContactSection() {
             I agree to be contacted by The Bay States Home Group via call, email, and text. To opt-out, you can reply "stop" at any time or click the unsubscribe link in the emails. Message and data rates may apply
           </div>
         </div>
-        <Button content="submit" className="mt-30"/>
+        <Button content="submit" className="mt-30" />
       </div>
     </div>
   );
